@@ -1,6 +1,6 @@
 // This File defines Values					
 <?php								// 2
-$dollars = "1000";  // syntaktisch ok 
+$testWert = "1000";  // syntaktisch ok 
 $customerName = "Schommer Media";$email = "emailNotSet@hoster.de";
 $streetAddress= "koenigstrasse 56";				// 5	
 /*
@@ -23,11 +23,11 @@ function str_To_Upper($inputstr)
 }
 // Funktions-Aufruf
 $streetAddress = str_To_Upper($streetAddress);
-								// 25
+// Speicher freigeben => auskommentieren löscht Sichtbarkeit in Template								// 25
 //unset($streetAddress);
 //unset($customerName);
-$dollars = NULL;
-if(is_null($dollars))
+$testWert = NULL;
+if(is_null($testWert))
 {
 echo "reset completed";
 }
