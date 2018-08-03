@@ -1,8 +1,8 @@
-// This File defines Values					
+﻿// This File defines Values					
 <?php								// 2
 $testWert = "1000";  // syntaktisch ok 
-$customerName = "Schommer Media";$email = "emailNotSet@hoster.de";
-$streetAddress= "koenigstrasse 56";				// 5	
+$customerName = "MyCompany [Europe]";$email = "emailNotSet@hoster.de";
+$streetAddress= "Main Street 123";				// 5	
 /*
 *<?php
 *$title = "template demo";
